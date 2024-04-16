@@ -219,15 +219,44 @@
  }
 
  /* get latest deals */
-/* will add the bg img */
+ /* will add the bg img */
  .latest_deals {
-    background-color: #f8f8f8;
+     background-color: #f8f8f8;
 
  }
+
  .latest_container {
      display: flex;
      flex-direction: column;
      text-align: center;
      padding: 70px 20px;
-     margin-bottom: 50px;
  }
+
+ /* input and subscribe button */
+ .subscribe_form {
+    text-align: center;
+    margin-top: -30px;
+    padding-bottom: 50px;
+}
+
+.subscribe_form input[type="email"] {
+    width: 40%; /* Set input width to 70% of its container */
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.subscribe_form button {
+    padding: 10px 20px;
+    background-color: #ee6464;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.subscribe_form button:hover {
+    background-color: #d63131;
+}
