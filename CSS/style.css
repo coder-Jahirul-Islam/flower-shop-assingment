@@ -43,6 +43,7 @@
      font-size: 18px;
      color: gray;
      margin-bottom: 20px;
+     line-height: 30px;
  }
 
  .btn_primary {
@@ -90,7 +91,7 @@
      text-align: center;
  }
 
-  .section_title {
+ .section_title {
      font-size: 2.5em;
      font-weight: 600;
      margin-bottom: 20px;
@@ -169,3 +170,64 @@
      line-height: 30px;
  }
 
+
+ /* Instagram section */
+ .instagram {
+     background-color: #f8f8f8;
+     padding: 70px 20px;
+     text-align: center;
+ }
+
+ .instagram_sub_content {
+     margin-bottom: 30px;
+ }
+
+ .instagram_sub_content h2 {
+     font-size: 2.5em;
+     margin-bottom: 20px;
+ }
+
+ .instagram_sub_content p {
+     font-size: 18px;
+     color: #777;
+     margin-bottom: 30px;
+ }
+
+ .instagram_images {
+     display: flex;
+     justify-content: center;
+     gap: 15px;
+     margin-top: 50px;
+     margin-bottom: 30px;
+ }
+
+ .instagram_images img {
+     width: 200px;
+     height: 200px;
+     object-fit: cover;
+     border-radius: 50%;
+     border: 3px solid #fff;
+     transition: transform 0.3s ease;
+     -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+     -ms-border-radius: 50%;
+     -o-border-radius: 50%;
+ }
+
+ .instagram_images img:hover {
+     transform: scale(1.1);
+ }
+
+ /* get latest deals */
+/* will add the bg img */
+ .latest_deals {
+    background-color: #f8f8f8;
+
+ }
+ .latest_container {
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     padding: 70px 20px;
+     margin-bottom: 50px;
+ }
